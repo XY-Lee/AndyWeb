@@ -2,6 +2,7 @@
 body{
   font-family:標楷體;
   background:url(img/background.jpg) ;
+  background-size: cover;
 }
 
 .main-div {
@@ -49,4 +50,8 @@ body{
   margin: auto auto auto 90% ;
   height:22px;
   width:53px;
+}
+
+.APage{
+
 }
