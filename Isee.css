@@ -16,8 +16,9 @@ body{
 }
 
 .left-div {
-  margin: 0 ;
-  width:20% ;
+  float:left ;
+  margin: 0 0 ;
+  width:190px ;
   text-align : left ;
 
 }
@@ -29,7 +30,23 @@ body{
 }
 
 .mainText{
-  margin: 0 auto auto 20% ;
-  background-color : black ;
+  margin: 0 auto auto 25%;
   width:79% ;
+  text-align :left ;
+}
+
+.text-title{
+  height:45px;
+  width:187px;
+}
+
+.InText {
+  margin: 3% auto auto 5%;
+  font-size:30px;
+}
+
+.top {
+  margin: auto auto auto 90% ;
+  height:22px;
+  width:53px;
 }
