@@ -10,6 +10,7 @@ $(document).ready(function(){
   
 }) ;
 
+<script type="text/javascript">
 var jq = jQuery.noConflict();
 jq(function() {
     var top = jq('.left-div').offset().top - parseFloat(jq('.left-div').css('marginTop').replace(/auto/, 0));
@@ -33,3 +34,4 @@ jq(function() {
         }
     });
 });
+</script>
