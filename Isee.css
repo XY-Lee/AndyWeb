@@ -55,3 +55,51 @@ body{
 .APage{
 
 }
+
+.organizers{
+  height:300px;
+  width:300px;
+}
+
+.introduce-table{
+  word-break: break-all;
+  font-size:30px;
+  width:800px;
+  border-collapse: collapse;
+}
+
+.photo-td {
+  width:300px;
+  border-style:groove;
+}
+
+.text-td {
+  border-style:groove;
+}
+
+.GoTo-href {
+  text-decoration:none;
+  color:#66FF33;
+}
+
+.GoTo-href:hover {
+  color:#FFFF00;
+}
+
+.footer-ul {
+  text-align:center;
+}
+
+.footer-ul ul li {
+  width: 100px;
+  display: inline-block;
+}
+
+.Botton-href {
+  text-decoration:none;
+  color:#0033CC;
+}
+
+.Botton-href:hover {
+  color:#00CC00;
+}
