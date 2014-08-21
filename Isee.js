@@ -9,3 +9,27 @@ $(document).ready(function(){
   }) ;
   
 }) ;
+
+var jq = jQuery.noConflict();
+jq(function() {
+    var top = jq('.left-div').offset().top - parseFloat(jq('.left-div').css('marginTop').replace(/auto/, 0));
+    var footTop = jq('.footer-ul').offset().top - parseFloat(jq('.footer-ul').css('marginTop').replace(/auto/, 0));
+
+    var maxY = footTop - jq('.left-div').outerHeight();
+
+    jq(window).scroll(function(evt) {
+        var y = jq(this).scrollTop();
+        if (y > top) {
+            if (y < maxY) {
+                jq('.left-div').addClass('fixed').removeAttr('style');
+            } else {
+                jq('.left-div').removeClass('fixed').css({
+                    position: 'absolute',
+                    top: (maxY - top) + 'px'
+                });
+            }
+        } else {
+            jq('.left-div').removeClass('fixed');
+        }
+    });
+});
