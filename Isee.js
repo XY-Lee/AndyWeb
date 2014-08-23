@@ -19,4 +19,7 @@ $(document).ready(function(){
     $( this ).attr({ src: ImgOriginal }) ;
   }) ;
   // 滑鼠碰上去會出事結束
+  
+  
+
 }) ;
